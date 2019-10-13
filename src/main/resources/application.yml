@@ -1,0 +1,11 @@
+server:
+  port: 8018
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://nightnessss.cn:3306/yiban?useSSL=false&useUnicode=true&characterEncoding=utf-8&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password: fehead123
+    name: yiban
+    type: com.alibaba.druid.pool.DruidDataSource
