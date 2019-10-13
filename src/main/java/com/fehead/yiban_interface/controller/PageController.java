@@ -52,6 +52,7 @@ public class PageController extends BaseController {
 
     private static final String appSecret = "7d4c12146e5cf2104f99d3f5de1bf65f";
 
+    // redirectUri 必须和易班开发管理中心的 “授权回调地址” 一致
 //    private static final String redirectUri = "http://127.0.0.1:8018/page/oauth";
     private static final String redirectUri = "http://nightnessss.cn:8018/page/oauth";
 
