@@ -4,8 +4,8 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://nightnessss.cn:3306/yiban?useSSL=false&useUnicode=true&characterEncoding=utf-8&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
-    username: root
-    password: fehead123
+    url: jdbc:mysql://服务器ip:3306/数据库名?useSSL=false&useUnicode=true&characterEncoding=utf-8&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: 用户名
+    password: 密码
     name: yiban
     type: com.alibaba.druid.pool.DruidDataSource

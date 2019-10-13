@@ -48,13 +48,13 @@ import java.util.List;
 @RequestMapping("/page")
 public class PageController extends BaseController {
 
-    private static final String clientId = "f7fb6eeea56e6c2c";
+    private static final String clientId = "易班网站appid";
 
-    private static final String appSecret = "7d4c12146e5cf2104f99d3f5de1bf65f";
+    private static final String appSecret = "易班完整APPsecret";
 
     // redirectUri 必须和易班开发管理中心的 “授权回调地址” 一致
 //    private static final String redirectUri = "http://127.0.0.1:8018/page/oauth";
-    private static final String redirectUri = "http://nightnessss.cn:8018/page/oauth";
+    private static final String redirectUri = "http://服务器ip:8018/page/oauth";
 
     Logger logger = LoggerFactory.getLogger(PageController.class);
 
